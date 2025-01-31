@@ -1,4 +1,3 @@
-
 def print_rectangle(n, m) :
     
     for i in range(1, n+1) :
@@ -7,7 +6,7 @@ def print_rectangle(n, m) :
                 j == 1 or j == m) :
                 print("*", end="")            
             else :
-                print(" ", end="")            
+                print("*", end="")            
         
         print()
 
@@ -15,4 +14,3 @@ def print_rectangle(n, m) :
 rows = 5
 columns = 10
 print_rectangle(rows, columns)
-
